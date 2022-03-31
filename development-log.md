@@ -13,6 +13,11 @@
   - Added them to a new `/screenshots` folder
 - Added/updated the README using the template provided with the challenge
   - Wasn't able to add the preview URL yet
+- Struggled getting this to deploy using Vercel. I wasn't sure what was happening but apparently two `package.json` dependencies were causing an issue on Vercel: (1) `esbuild-darwin-arm64` and (2) `fsevents`
+  - The former, I guess, is to support Vite locally and the latter is not supported on Linux
+  - It was pretty difficult to figure out what was going on here between Vercel's error logging and Google
+  - The solution that ultimately worked was to move both of those dependencies to `optionalDependencies`
+- Updated README to include Vercel preview URL: [https://fm-order-summary-component-marclemagne.vercel.app/](https://fm-order-summary-component-marclemagne.vercel.app/)
 
 ## 3/29/22
 

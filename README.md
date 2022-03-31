@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/marclemagne/fm-order-summary-component](https://github.com/marclemagne/fm-order-summary-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://fm-order-summary-component-marclemagne.vercel.app/](https://fm-order-summary-component-marclemagne.vercel.app/)
 
 ## My process
 
