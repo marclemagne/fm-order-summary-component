@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./src/assets/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Order Summary Component from Frontend Mentors coded by Marc Newman"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Order Summary Component</title>
+  </head>
+  <body
+    class="bg-pale-blue bg-[url(./src/assets/pattern-background-mobile.svg)] bg-[length:100%_auto] bg-no-repeat sm:bg-[url(./src/assets/pattern-background-desktop.svg)]"
+  >
+    <main class="flex h-full flex-col">
+      <div class="mt-auto flex items-center justify-center">
+        <div
+          class="mx-6 max-w-[450px] grow overflow-hidden rounded-2xl bg-white shadow-lg"
+        >
+          <img
+            class="mb-6 block sm:mb-12"
+            src="./src/assets//illustration-hero.svg"
+            alt="Woman rocking out to music"
+            width="450"
+            height="220"
+          />
+          <div class="flex flex-col items-center px-6 pb-8 sm:px-12">
+            <h1 class="mb-4 text-2xl font-black text-dark-blue">
+              Order Summary
+            </h1>
+            <p class="mb-6 text-center text-desaturated-blue">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+            <div
+              class="mb-6 flex w-full items-center rounded-lg bg-very-pale-blue p-4 sm:p-6"
+            >
+              <img
+                class="block shrink"
+                src="./src/assets/icon-music.svg"
+                alt="Music note"
+                height="48"
+                width="48"
+              />
+              <div class="grow pl-5">
+                <span class="block text-sm font-bold sm:mb-1 sm:text-base"
+                  >Annual Plan</span
+                >
+                <span class="text-sm text-desaturated-blue sm:text-base"
+                  >$59.99/year</span
+                >
+              </div>
+              <button
+                class="btn-change text-xs font-bold text-purplish-blue underline hover:no-underline sm:text-sm"
+              >
+                Change
+              </button>
+            </div>
+            <button
+              class="east-in-out mb-5 w-full rounded-lg bg-bright-blue py-4 text-sm font-bold text-white shadow-2xl transition-colors duration-200 hover:bg-purplish-blue"
+            >
+              Proceed to Payment
+            </button>
+            <button
+              class="btn-cancel font-bold text-desaturated-blue hover:text-dark-blue"
+            >
+              Cancel Order
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mt-auto pb-2 text-center text-xs">
+        Challenge by
+        <a
+          class="text-[hsl(228,45%,44%)]"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Frontend Mentor</a
+        >. Coded by <a class="text-[hsl(228,45%,44%)]" href="#">Marc Newman</a>.
+      </footer>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
